@@ -19,10 +19,16 @@ Must create a play game function. Where I will create all the stuff needed to ru
 an incremental fashion. In that way I can calculate the transmission policy.
 """
 
+
 def play_a_game():
-    # Randomly generate targets
-    # Whenever a new observation is made we calculate the communication policy and decide to communicate or not.
-    # The game runs until the max time is reached.
+    """
+    1.  Randomly generate targets
+    2.  Whenever a new observation is made we calculate the communication policy and decide to communicate or not.
+    3.  For the communication policy we create all the different non communicated target combinations and generate the
+        appropriate states.
+    4.  The game runs until the max time is reached.
+    """
+
     pass
 
 
